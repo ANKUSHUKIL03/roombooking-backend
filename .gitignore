@@ -1,0 +1,85 @@
+# ====================
+#  General Node/Express
+# ====================
+node_modules/
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.env
+.env.*.local
+pids/
+*.pid
+*.seed
+
+# ================
+#  Build Outputs
+# ================
+build/
+dist/
+dist-ssr/
+out/
+.cache/
+.next/
+public/build/
+tmp/
+temp/
+
+# =====================
+#  React/Vite/Frontend
+# =====================
+client/node_modules/
+client/build/
+client/dist/
+client/.next/
+client/.cache/
+client/coverage/
+client/.vite/
+
+# =====================
+#  Uploads (user uploads - runtime only)
+# =====================
+uploads/*
+!uploads/.gitkeep
+
+# =====================
+#  OS-specific files
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+#  IDE/Editor Settings
+# =====================
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# =====================
+#  TypeScript (if used)
+# =====================
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# =====================
+#  Testing / Coverage
+# =====================
+coverage/
+*.lcov
+
+# =====================
+#  Optional Caches
+# =====================
+.npm/
+.yarn/
+.pnp.*
+.cache/
+*.tgz
