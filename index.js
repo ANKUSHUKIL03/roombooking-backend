@@ -12,6 +12,8 @@ const path = require('path');
 const bcrypt = require('bcryptjs');
 require('dotenv').config();
 
+const PORT = process.env.PORT || 4000;
+
 const User = require('./models/User.js');
 
 const app = express();
@@ -276,6 +278,6 @@ app.post('/bookings', async (req, res) => {
 });
 
 // ✅ Start server
-app.listen(4000, () => {
-  console.log("Server is running on http://localhost:4000");
+app.listen(PORT, () => {
+  console.log(`Server is running on http://localhost:${PORT}`);
 });
